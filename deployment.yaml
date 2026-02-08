@@ -1,6 +1,4 @@
-# ============================================
 # Application wil-playground pour Argo CD
-# ============================================
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +16,7 @@ spec:
     spec:
       containers:
       - name: wil-playground
-        image: wil42/playground:v1
+        image: wil42/playground:v2
         ports:
         - containerPort: 8888
 ---
